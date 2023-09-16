@@ -3,26 +3,29 @@ package keyWordDrivenFramwork;
 import java.io.IOException;
 import java.time.Duration;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BaseTest extends Flib implements IautoConstant{
 	
 	//it is use to open and close the browser(by reading a data from property
-	
+	static WebDriver driver;
 	public void openBrowser()  throws IOException
 	{
 		Flib flib = new Flib();
 		
- String browserValue = flib.readPropertyData(PROP_PATH,"Browser");
- String url = flib.readPropertyData(PROP_PATH,"Url");
+           String browserValue = flib.readPropertyData(PROP_PATH,"Browser");
+          String url = flib.readPropertyData(PROP_PATH,"Url");
  
-	if(browserValue.equalsIgnoreCase("chrome"))
-	{
+	   if(browserValue.equalsIgnoreCase("chrome"))    
+	   {
 		System.setProperty(CHROME_KEY, CHROME_PATH);
 		
 		driver = new ChromeDriver();
-	}
-	else if(browserValue.equalsIgnoreCase("firefox))"
+	   }
+	else if(browserValue.equalsIgnoreCase("firefox"))
 			{
 				System.setProperty(GECKO_KEY, GECKO_PATH);
 				driver = new FirefoxDriver();
@@ -31,7 +34,7 @@ public class BaseTest extends Flib implements IautoConstant{
 			else if(browserValue.equalsIgnoreCase("edge"))
 			{
 				System.setProperty(EDGE_KEY, EDGE_PATH);
-				driver = new EdgeDiver();
+				driver = new EdgeDriver();
 			}
 			else
 			{
@@ -44,18 +47,19 @@ public class BaseTest extends Flib implements IautoConstant{
 	public void closeBrowser()
 	{
 		driver.quit();
+	
 	}
-	}
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
 }
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
