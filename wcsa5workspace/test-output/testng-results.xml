@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-28T10:48:49 GMT-05:00" name="Default suite" finished-at="2023-07-28T10:49:13 GMT-05:00" duration-ms="23464">
+    <groups>
+    </groups>
+    <test started-at="2023-07-28T10:48:49 GMT-05:00" name="Default test" finished-at="2023-07-28T10:49:13 GMT-05:00" duration-ms="23464">
+      <class name="testNGAnnotations_Flags.GoogleSearchTestCase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testNGAnnotations_Flags.GoogleSearchTestCase@31304f14]" started-at="2023-07-28T10:48:49 GMT-05:00" name="setUp" finished-at="2023-07-28T10:48:56 GMT-05:00" duration-ms="6373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="search1()[pri:0, instance:testNGAnnotations_Flags.GoogleSearchTestCase@31304f14]" started-at="2023-07-28T10:48:56 GMT-05:00" name="search1" finished-at="2023-07-28T10:48:58 GMT-05:00" duration-ms="2214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGAnnotations_Flags.GoogleSearchTestCase@31304f14]" started-at="2023-07-28T10:48:58 GMT-05:00" name="tearDown" finished-at="2023-07-28T10:48:58 GMT-05:00" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testNGAnnotations_Flags.GoogleSearchTestCase@31304f14]" started-at="2023-07-28T10:48:58 GMT-05:00" name="setUp" finished-at="2023-07-28T10:49:01 GMT-05:00" duration-ms="2707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="search2()[pri:0, instance:testNGAnnotations_Flags.GoogleSearchTestCase@31304f14]" started-at="2023-07-28T10:49:01 GMT-05:00" name="search2" finished-at="2023-07-28T10:49:03 GMT-05:00" duration-ms="2202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGAnnotations_Flags.GoogleSearchTestCase@31304f14]" started-at="2023-07-28T10:49:03 GMT-05:00" name="tearDown" finished-at="2023-07-28T10:49:04 GMT-05:00" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testNGAnnotations_Flags.GoogleSearchTestCase@31304f14]" started-at="2023-07-28T10:49:04 GMT-05:00" name="setUp" finished-at="2023-07-28T10:49:06 GMT-05:00" duration-ms="2523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="search3()[pri:0, instance:testNGAnnotations_Flags.GoogleSearchTestCase@31304f14]" started-at="2023-07-28T10:49:06 GMT-05:00" name="search3" finished-at="2023-07-28T10:49:09 GMT-05:00" duration-ms="2311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGAnnotations_Flags.GoogleSearchTestCase@31304f14]" started-at="2023-07-28T10:49:09 GMT-05:00" name="tearDown" finished-at="2023-07-28T10:49:13 GMT-05:00" duration-ms="3888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNGAnnotations_Flags.GoogleSearchTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
